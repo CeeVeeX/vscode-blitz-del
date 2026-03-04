@@ -1,4 +1,4 @@
 {
-  "extension.description": "A VS Code extension for fast file deletion, suitable for Windows.",
+  "extension.description": "Built for Windows users who frequently delete node_modules and prefer context-menu deletion. The bundled binary bin/blitz-del.exe is built from https://github.com/CeeVeeX/blitz-del.",
   "command.blitz-del.deleteFile.title": "Blitz Delete"
 }

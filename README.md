@@ -1,71 +1,24 @@
-# blitz-del README
+# Blitz Del
 
-This is the README for your extension "blitz-del". After writing up a brief description, we recommend including the following sections.
+Blitz Del 是一个仅适用于 Windows 的 VS Code 扩展，项目目标是解决 `node_modules` 删除过慢的问题，并服务于习惯在资源管理器右键菜单中删除文件的用户。
 
-## Features
+## 可执行文件来源
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- 扩展内置二进制文件：`bin/blitz-del.exe`
+- 来源仓库：<https://github.com/CeeVeeX/blitz-del>
+- 说明：该 `exe` 为上述仓库的编译产物
 
-For example if there is an image subfolder under your extension project workspace:
+## 功能
 
-\!\[feature X\]\(images/feature-x.png\)
+- 在资源管理器文件右键菜单中提供“闪电删除 / Blitz Delete”命令
+- 重点优化大目录（如 `node_modules`）删除体验
+- 调用 `bin/blitz-del.exe` 对选中文件执行删除操作
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## 适用环境
 
-## Requirements
+- 操作系统：Windows (`win32`)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## 开发与调试
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- 安装依赖：`pnpm install`
+- 调试扩展：在 VS Code 中按 `F5` 运行 `Run Extension`

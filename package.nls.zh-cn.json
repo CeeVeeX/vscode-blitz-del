@@ -1,4 +1,4 @@
 {
-  "extension.description": "多线程删除文件，适用于 Windows 系统",
+  "extension.description": "面向 Windows 下删除 node_modules 过慢，且习惯使用右键菜单删除文件的用户。内置的 bin/blitz-del.exe 来自 https://github.com/CeeVeeX/blitz-del 的编译产物。",
   "command.blitz-del.deleteFile.title": "闪电删除"
 }
