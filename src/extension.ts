@@ -25,7 +25,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const output = vscode.window.createOutputChannel("My Tool");
 		output.show(true);
 
-		const child = spawn(exePath, [uri.fsPath]);
+		const child = spawn(exePath, [uri.fsPath, '--lang', vscode.env.language]);
 
 		child.stdout.on("data", data => {
 			output.append(data.toString());
