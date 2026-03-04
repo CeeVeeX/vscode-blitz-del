@@ -1,0 +1,4 @@
+{
+  "extension.description": "多线程删除文件，适用于 Windows 系统",
+  "command.blitz-del.deleteFile.title": "闪电删除"
+}

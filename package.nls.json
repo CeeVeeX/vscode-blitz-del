@@ -1,0 +1,4 @@
+{
+  "extension.description": "A VS Code extension for fast file deletion, suitable for Windows.",
+  "command.blitz-del.deleteFile.title": "Blitz Delete"
+}
